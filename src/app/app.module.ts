@@ -5,14 +5,7 @@ import { HomePage } from '../pages/home/home';
 
 import { CouchbaseProvider } from "../providers/couchbase-provider";
 
-@NgModule({
-  declarations: [
-    MyApp,
-    HomePage
-  ],
-  imports: [
-    IonicModule.forRoot(MyApp)
-  ],
+
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
